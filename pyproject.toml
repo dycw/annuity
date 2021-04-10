@@ -30,6 +30,8 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+loguru = "^0.5"
+more-itertools = "^8.7"
 
 [tool.poetry.dev-dependencies]
-pre-commit = "^2"
+pre-commit = "^2.12"
