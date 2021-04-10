@@ -52,7 +52,7 @@ def analyse(
         year += 1
 
 
-if __name__ == "__main__":
+def main() -> None:
     # costs
     cum_costs_usd = [7702, 15403, 23105, 30806, 38508]
     hkd_per_usd = 7.8
@@ -125,3 +125,7 @@ if __name__ == "__main__":
                 ]
             )
         )
+
+
+if __name__ == "__main__":
+    main()

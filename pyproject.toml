@@ -35,3 +35,6 @@ more-itertools = "^8.7"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.12"
+
+[tool.poetry.scripts]
+analyze = "annuity:main"
