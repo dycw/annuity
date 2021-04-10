@@ -1,0 +1,7 @@
+.cache/
+.direnv/
+.mypy_cache/
+.pytest_cache/
+.vim/
+__pycache__/
+tags
